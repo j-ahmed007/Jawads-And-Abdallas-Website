@@ -1,0 +1,59 @@
+.navigation-bar {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  .navigation-bar button {
+    padding: 0.25rem 1rem;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    cursor: pointer;
+    font-size: 17.5px;
+    font-family: 'Trocchi', serif; 
+    background-color: #000000;
+  }
+  
+body{
+    background-color: azure;
+  }
+  .avatar {
+    width: 30px;
+  }
+  .Map{
+    width: 300px;
+  }
+  h1 { color: #7c795d; 
+    font-family: 'Trocchi', serif; 
+    font-size: 45px; 
+    font-weight: normal; 
+    line-height: 48px; 
+    margin: 0; }
+  
+  
+  h2 { color: #7c795d; 
+    font-family:  'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 28px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    margin: 0 0 24px; }
+  
+  
+  p { color: #4c4a37; 
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+   font-size: 18px; 
+   line-height: 32px; 
+   margin: 0 0 24px; }
+  
+  
+  footer {
+    color: #7c795d; 
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; 
+    font-size: 20px; 
+    font-weight: 400; 
+    line-height: 32px; 
+    margin: 0 0 24px;
+  }
+  .list{
+  color: #4c4a37;
+  }

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style1.css">
+  <script src="main.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+  <title>Personal Webpage - Jawad Ahmed</title>
+</head>
+<body>
+  <main>
+    
+    <div class="navigation-bar">
+      <a href="/public/index2.html"><button>Abdalla's Webpage</button></a>
+    </div>
+
+    <div class="intro-section">
+      <h1>Hello, I'm Jawad.</h1>
+      <p>Welcome To My Webpage!</p>
+      <button id="hello-btn">Say Hello 👋</button>
+      <a href=#section-tabs><button>Scroll Down 👇</button></a>
+      <br>
+      <img src="images/Logo.png" onclick="window.location.reload();">
+    </div>
+
+    <div class="section-tabs" id="section-tabs">
+      <button class="tab-links" id="tab-default" onclick="openTab(event, 'About-Me')">About Me</button>
+      <button class="tab-links" onclick="openTab(event, 'My-Favourite-Apps')">My Favourite Apps</button>
+      <button class="tab-links" onclick="openTab(event, 'My-Experience')">My Experience</button>
+      <button class="tab-links" onclick="openTab(event, 'My-Ambitions')">My Ambitions</button>
+      <button class="tab-links" onclick="openTab(event, 'My-Hobbies')">My Hobbies</button>
+    </div>
+
+    <div class="section-content" id="About-Me">
+      <h2>👨‍💻 About Me</h2>
+      <ul>
+        <li>I've been coding for about 3 to 4 years now where I have been using HTML, CSS and JavaScript as my main languages to build websites, small side projects as well as fix and debug other peoples code.</li>
+      </ul>
+    </div>
+    <div class="section-content" id="My-Favourite-Apps">
+      <h2>📱 My Favourite Apps</h2>
+      <ul>
+        <li>💻 Coding: VSCode</li>
+        <li>🎨 Designing: Canva</li>
+        <li>📖 Learning: Udemy</li>
+        <li>📺 Watching: YouTube</li>
+        <li>🎮 Gaming: Steam</li>
+      </ul>
+    </div>
+    <div class="section-content" id="My-Experience">
+      <h2>📚 My Experience</h2>
+      <ul>
+        <li><b>What I've Done So Far:</b> I've Made Various Websites With HTML, CSS And JavaScript, As Well As WordPress On Some Occassions. When Using WordPress, I Would Include Custom Code When Needed To Acheieve The End Goal. When Coding A Project, I Would Make Sure That If Something Has A Lot Of Logic Or Code Behind It On The Back-End, I Would Make It Somewhat Visually Appealing On The Front-End For The User So They Understand The Concept Better.</li>
+        <li><b>What Languages I've Used:</b> HTML, CSS, JavaScript & Python.</li>
+        <li><b>Types Of Websites Created:</b> Business Websites, E-Commerce Websites, Blog Websites & Personal Websites.</li>
+        <li><b>Other Side Projects Built:</b> Text-To-Speech Reader, Video Player, Drawing Application & Small Python Games.</li>
+      </ul>
+    </div>
+    <div class="section-content" id="My-Ambitions">
+      <h2>🌠 My Ambitions</h2>
+      <ul>
+        <li>To Become A Full-Stack Developer As This Will Allow Me To Progress Further In Terms Of Creating The Sophisticated Type Of Applications That I've Wanted To Build.</li>
+      </ul>
+    </div>
+    <div class="section-content" id="My-Hobbies">
+      <h2>⛹️‍♂️ My Hobbies</h2>
+      <ul>
+        <li>🎾 Playing Tennis</li>
+        <li>⚽ Playing Football</li>
+        <li>🕹️ Playing Video Games</li>
+      </ul>
+    </div>
+  </main>
+</body>
+</html>
